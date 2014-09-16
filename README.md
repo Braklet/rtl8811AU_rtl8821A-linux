@@ -8,3 +8,5 @@ RTL8811AU or related chips.
 
 I needed a better-performing driver than the v4.2.2 version available for download from edimax.com, and this one
 works great.
+
+I found that similar drivers from ASUS-based sources were missing the RTL8821A extensions required for my Edimax.
