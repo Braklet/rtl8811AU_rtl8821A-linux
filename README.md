@@ -1,3 +1,9 @@
+This driver is now DEPRECATED, it hasn't been touched for years and is unlikely to build on any >= 4.x kernels!
+
+I found that the AircrackNG driver was much better behaved and switched to it on my own systems:
+
+git clone https://github.com/aircrack-ng/rtl8812au.git
+
 rtl8811AU_rtl8821A-linux
 ========================
 
