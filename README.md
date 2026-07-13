@@ -1,12 +1,13 @@
 This driver is now DEPRECATED, it hasn't been touched for years and is unlikely to build on any >= 4.x kernels!
 
+I confirmed that my Edimax AC600 USB functions perfectly with Ubuntu 24.04 HWE kernel 6.17.0, so the
+in-tree drivers added in 6.14 are your best option.
+
 I found that the AircrackNG driver was much better behaved and switched to it on my own systems:
 
 git clone https://github.com/aircrack-ng/rtl8812au.git
 
 Subsequently found this driver, much more up to date:  https://github.com/lwfinger/rtw88
-
-Also found a note claiming that kernel 6.14 should support these devices in-tree.
 
 rtl8811AU_rtl8821A-linux
 ========================
